@@ -1,0 +1,84 @@
+body{
+    background-image: url('./Images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container img{
+    background-color: white;
+    width: 800px;
+    height: 450px;
+    padding: 10px;
+    border-width: 5px;
+    border-style: groove;
+    Border-color: black;
+    box-shadow: 1px 1px 0px rgb(73, 73, 73),
+                2px 2px 0px rgb(73, 73, 73),
+                3px 3px 0px rgb(73, 73, 73),
+                4px 4px 0px rgb(73, 73, 73),
+                5px 5px 0px rgb(73, 73, 73),
+                6px 6px 0px rgb(73, 73, 73);
+}
+
+.hide{
+    display: none;
+}
+
+#next, #prev{
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}
+
+#next:hover, #prev:hover{
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.footerdot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    margin-top: 20px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.footerdot:hover{
+    background-color: black;
+}
